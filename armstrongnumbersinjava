@@ -1,0 +1,29 @@
+import java.util.*;
+class Main {
+	public static void main(String args[]) {
+		// Your code goes here
+		//Armstrong number
+		Scanner sc = new Scanner(System.in);
+		int k = sc.nextInt();
+		int n = 1;
+		while(n<=k){
+		            int y = n;
+		            int sum=0;
+		            while(y>0){
+		                       int x = y%10;
+		                       int z= x*x*x;
+		                       sum = sum+z;
+		                       y= y/10;
+		                      }
+		
+		            if(sum==n){
+			                   System.out.println("No."+n+", is an Armstrong number");
+		                     }
+		            // else{
+			        //      System.out.println("No."+y+", it's not an Armstrong number");
+		            //     }
+		               n++;
+		           }
+		
+	}
+}
