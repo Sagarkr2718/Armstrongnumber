@@ -1,5 +1,4 @@
 # Armstrongnumber
-
 An Armstrong number is a positive m-digit number that is equal to the sum of the mth powers of their digits. It is also known as pluperfect, or Plus Perfect, or Narcissistic number. 
 
 153: 13 + 53 + 33 = 1 + 125+ 27 = 153
